@@ -468,7 +468,7 @@ Describe the equivalents of `?`, `+`, `*` in `{m,n}` form.
 | `*`     | `{0,}`  | Match 0 or more   |
 
 For example, let's repeat the examples in the chapter, replacing `?` with `{0,1}`, 
-`+` with `{1,}`, and `*` with `{*,}`.
+`+` with `{1,}`, and `*` with `{0,}`.
 ```{r }
 x <- "1888 is the longest year in Roman numerals: MDCCCLXXXVIII"
 ```
